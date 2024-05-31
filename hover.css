@@ -22,8 +22,8 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 2px 4px 50px pink;
     border: 1px solid pink;
+    transition: all ease 7s;
 }
 .items-container{
     position: absolute;
@@ -39,6 +39,9 @@ img{
     transform: translateY(0px);
     opacity: 1;
     transition: all ease 1s;
+}
+.container:hover{
+    box-shadow: 2px 4px 10px 1000px pink;
 }
 .container:hover .items-container{
     transform: translateY(-205px);
