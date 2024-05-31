@@ -1,5 +1,5 @@
 const hover = document.getElementById("hover")
-const audio = new Audio('javaPics/Japanese Denim.mp3')
+const audio = new Audio('javaPics/lafuey.mp3')
 
 hover.onmouseover = function(){
     audio.play();
